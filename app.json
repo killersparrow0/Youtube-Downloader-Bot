@@ -1,20 +1,20 @@
 {
   "name": "YouTube Downloader Bot",
   "description": "A telegram bot To Download Youtube Files ",
-  "logo": "https://telegra.ph/file/6a3b1febade2313dd0dca.jpg",
+  "logo": "https://telegra.ph/file/5faca0123bfa73bcf4cf6.mp4",
   "keywords": [
     "Youtube","YoutubeDownloader"
   ],
-  "repository": "https://github.com/aryanvikash/Youtube-Downloader-Bot",
-  "success_url": "https://t.me/youtubdlbot",
+  "repository": "https://github.com/killersparrow0/Youtube-Downloader-Bot",
+  "success_url": "http://t.me/Yt_loaderrobott",
   "website": "https://github.com/aryanvikash/Youtube-Downloader-Bot",
   "env": {
-        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
-        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true}
+        "API_ID": {"description": "4080786", "required": true},
+        "API_HASH": {"description": "b214aec132378022e02df812714ba7a4" , "required": true},
+        "BOT_TOKEN": {"description": "1726935148:AAEyagGVX1S8qGScAk80IyLVvTFhEtJmGF8","required": true}
   },
       "buildpacks": [
-        {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
+        {"url": "https://github.com/aryanvikash/Youtube-Downloader-Bot"},
         {"url": "heroku/python"}
     ],
   "formation": {
